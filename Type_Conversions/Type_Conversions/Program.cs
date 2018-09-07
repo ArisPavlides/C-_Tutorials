@@ -29,10 +29,32 @@ namespace Type_Conversions
             Console.WriteLine(num_6);
             Console.ReadLine();
 
-            // a string variable and an int variable are not compatible so we need to use the Convert class
+            // a string variable and an int variable are not compatible so we need to use the Convert class. the int variable has enough memory to store to value of the string converted
             string num_7 = "1234";
             int num_8 = Convert.ToInt32(num_7);
-            Console.WriteLine(num_7);
+            Console.WriteLine(num_8);
+            Console.ReadLine();
+
+            // a string variable and an int variable are not compatible so we need to use the Convert class. the int variable does not have enough memory to store to value of the string converted. Therefore
+            // a Try statement is inserted which, whenever an error arises in conversion, returns a message
+            try
+            {
+                string num_9 = "1234";
+                byte num_10 = Convert.ToByte(num_9);
+                Console.WriteLine(num_10);
+                Console.ReadLine();
+            }
+
+            catch (Exception)
+            {
+                Console.WriteLine("Error in conversion");
+                Console.ReadLine();
+            }
+
+            // a string variable, if it has the approprate value, can be stored as a bool variable not by using casting since a string and bool variables are incompatible, but by using the Convert statement
+            string num_11 = "false";
+            bool num_12 = Convert.ToBoolean(num_11);
+            Console.WriteLine(num_12);
             Console.ReadLine();
         }
     }
