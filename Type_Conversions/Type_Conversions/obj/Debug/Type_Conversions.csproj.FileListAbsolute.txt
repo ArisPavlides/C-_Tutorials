@@ -1,0 +1,7 @@
+C:\Users\Aris\Documents\C#_tutorials\Type_Conversions\Type_Conversions\bin\Debug\Type_Conversions.exe.config
+C:\Users\Aris\Documents\C#_tutorials\Type_Conversions\Type_Conversions\bin\Debug\Type_Conversions.exe
+C:\Users\Aris\Documents\C#_tutorials\Type_Conversions\Type_Conversions\bin\Debug\Type_Conversions.pdb
+C:\Users\Aris\Documents\C#_tutorials\Type_Conversions\Type_Conversions\obj\Debug\Type_Conversions.csprojAssemblyReference.cache
+C:\Users\Aris\Documents\C#_tutorials\Type_Conversions\Type_Conversions\obj\Debug\Type_Conversions.csproj.CoreCompileInputs.cache
+C:\Users\Aris\Documents\C#_tutorials\Type_Conversions\Type_Conversions\obj\Debug\Type_Conversions.exe
+C:\Users\Aris\Documents\C#_tutorials\Type_Conversions\Type_Conversions\obj\Debug\Type_Conversions.pdb

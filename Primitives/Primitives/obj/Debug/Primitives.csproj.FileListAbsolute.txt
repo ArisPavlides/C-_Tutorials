@@ -1,0 +1,7 @@
+C:\Users\Aris\Documents\C#_tutorials\Primitives\Primitives\bin\Debug\Primitives.exe.config
+C:\Users\Aris\Documents\C#_tutorials\Primitives\Primitives\bin\Debug\Primitives.exe
+C:\Users\Aris\Documents\C#_tutorials\Primitives\Primitives\bin\Debug\Primitives.pdb
+C:\Users\Aris\Documents\C#_tutorials\Primitives\Primitives\obj\Debug\Primitives.csprojAssemblyReference.cache
+C:\Users\Aris\Documents\C#_tutorials\Primitives\Primitives\obj\Debug\Primitives.csproj.CoreCompileInputs.cache
+C:\Users\Aris\Documents\C#_tutorials\Primitives\Primitives\obj\Debug\Primitives.exe
+C:\Users\Aris\Documents\C#_tutorials\Primitives\Primitives\obj\Debug\Primitives.pdb
