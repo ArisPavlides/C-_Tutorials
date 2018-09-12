@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Enums
 {
-    // an enum contains by default variables of type integer
+    // an enum contains by default variables of type integer. Enums are basically a set of named constants
     public enum TrainTypes
     {
         // if we dont set the values of the variables to anything, by default the first variable will take a 

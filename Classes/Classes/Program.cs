@@ -11,7 +11,7 @@ namespace Classes
             // If the class is NOT static, by calling the new operator we are allocating a location in memory where the new 
             // class can be found. The good thing is that after we are done working with the class instance, c# gargabge collector
             // removes the class instance from memory
-            User_Name user_1 = new User_Name();
+            User_Name user_1 = new User_Name(); // create an instance of the class
             user_1.FirstName = "Aris";
             user_1.LastName = "Pavlides";
             user_1.Introduce();
