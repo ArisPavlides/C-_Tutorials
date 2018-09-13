@@ -21,9 +21,9 @@ namespace Answers
     {
         static void Main()
         {
-            //Question_1();
-            //Question_2();
-            // Question_3();
+            Question_1();
+            Question_2();
+            Question_3();
             Question_4();
         }
 
