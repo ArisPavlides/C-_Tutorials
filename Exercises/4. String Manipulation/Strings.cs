@@ -143,7 +143,7 @@ namespace CSharp1Exercises
         /// 6 on the console. Make sure the program calculates the number of vowels irrespective of the 
         /// casing of the word (eg "Inadequate", "inadequate" and "INADEQUATE" all include 6 vowels).
         /// </summary>
-        public void Exercise5()
+        public void Exercise_5()
         {
             Console.Write("Enter a word: ");
             // Note the ToLower() here. This is used to count for both A and a. 
