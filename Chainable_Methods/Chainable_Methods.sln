@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28010.2026
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StringBuilder", "StringBuilder\StringBuilder.csproj", "{986DED1C-DEF5-4589-86F4-84C671024F37}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chainable_Methods", "Chainable_Methods\Chainable_Methods.csproj", "{5B1F04E6-9B8F-4C52-8CC9-EB7F580FB59C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,15 +11,15 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{986DED1C-DEF5-4589-86F4-84C671024F37}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{986DED1C-DEF5-4589-86F4-84C671024F37}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{986DED1C-DEF5-4589-86F4-84C671024F37}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{986DED1C-DEF5-4589-86F4-84C671024F37}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5B1F04E6-9B8F-4C52-8CC9-EB7F580FB59C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5B1F04E6-9B8F-4C52-8CC9-EB7F580FB59C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5B1F04E6-9B8F-4C52-8CC9-EB7F580FB59C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5B1F04E6-9B8F-4C52-8CC9-EB7F580FB59C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {00E1E41A-7371-4085-A850-39CE0A1D7C29}
+		SolutionGuid = {AFBF08A9-0585-4245-83E1-E270FCFD845E}
 	EndGlobalSection
 EndGlobal

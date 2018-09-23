@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{986DED1C-DEF5-4589-86F4-84C671024F37}</ProjectGuid>
+    <ProjectGuid>{5B1F04E6-9B8F-4C52-8CC9-EB7F580FB59C}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>StringBuilder</RootNamespace>
-    <AssemblyName>StringBuilder</AssemblyName>
+    <RootNamespace>Chainable_Methods</RootNamespace>
+    <AssemblyName>Chainable_Methods</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,6 +43,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Nodes.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

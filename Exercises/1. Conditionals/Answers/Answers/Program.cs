@@ -160,6 +160,5 @@ namespace Answers
 
             Console.ReadLine();
         }
-
     }
 }

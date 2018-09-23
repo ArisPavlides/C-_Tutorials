@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("StringBuilder")]
+[assembly: AssemblyTitle("StringBuilder_class")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("StringBuilder")]
+[assembly: AssemblyProduct("StringBuilder_class")]
 [assembly: AssemblyCopyright("Copyright ©  2018")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -20,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // The following GUID is for the ID of the typelib if this project is exposed to COM
-[assembly: Guid("986ded1c-def5-4589-86f4-84c671024f37")]
+[assembly: Guid("1c856c18-5e96-420e-a227-81eee34f5ff1")]
 
 // Version information for an assembly consists of the following four values:
 //
