@@ -17,6 +17,7 @@ namespace Classes_Part2
             Console.ReadLine();
         }
 
+        // create a new instance of a class which and the values of its properties are the ones provided as parameters
         public static Person CreatePerson(string personName, string personSurname)
         {
             Person person = new Person();
