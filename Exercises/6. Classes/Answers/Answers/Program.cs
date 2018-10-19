@@ -20,7 +20,7 @@ namespace Answers
             stopwatch.Start();
             stopwatch.Stop();
 
-            Console.WriteLine(stopwatch.Duration());
+            Console.WriteLine(stopwatch.Duration);
             Console.ReadLine();
         }
 
@@ -36,7 +36,7 @@ namespace Answers
             post.VotePost(1);
             post.VotePost(-1);
 
-            Console.WriteLine(post.ReturnVotes());
+            Console.WriteLine(post.NumVotes);
             Console.ReadLine();
         }
     }

@@ -11,24 +11,19 @@ namespace Answers
         private readonly string _title;
         private readonly string _description;
         private readonly DateTime _creationDate;
-        private int numVotes;
+        public int NumVotes { get; private set; } // get to return the value and private set so we can only modify from this class
 
         public StackOverflowPost(string title, string descripion)
         {
             this._title = title;
             this._description = descripion;
             this._creationDate = DateTime.Now;
-            this.numVotes = 0;
+            this.NumVotes = 0;
         }
 
         public void VotePost(int applyVote)
         {
-            this.numVotes += applyVote;
-        }
-
-        public int ReturnVotes()
-        {
-            return numVotes;
-        }
+            this.NumVotes += applyVote;
+        }        
     }
 }

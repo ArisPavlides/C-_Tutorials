@@ -19,7 +19,7 @@ namespace Answers
 
         public void Start()
         {
-            if (_started) { throw new System.ArgumentException("You have fucked up", "Already started"); }
+            if (_started) { throw new System.InvalidOperationException("Stopwatch already started"); }
             else
             {
                 _start = DateTime.Now;
@@ -32,14 +32,18 @@ namespace Answers
             _stop = DateTime.Now;
         }
 
-        public TimeSpan Duration()
+        // this is just a variable the value of which can only be retrieved
+        public int Duration
         {
-            if (_start == DateTime.MinValue || _stop == DateTime.MinValue)
+            get
             {
-                throw new System.ArgumentException("You have fucked up", "Define start and end dates");
-            }
+                if (_start == DateTime.MinValue || _stop == DateTime.MinValue)
+                {
+                    throw new System.InvalidOperationException("Define start and end dates");
+                }
 
-            return this._stop - this._start;
+                return (this._stop - this._start).Seconds;
+            }
         }
     }
 }
